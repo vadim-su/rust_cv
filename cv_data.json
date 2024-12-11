@@ -1,0 +1,300 @@
+{
+    "name": "Vadim Suharnikov",
+    "initials": "VS",
+    "location": "Yerevan, Armenia",
+    "location_link": "https://www.google.com/maps/place/Yerevan,+Armenia",
+    "summary": "Enthusiastic about learning new technologies and solving complex problems. Adept at creating robust and scalable systems using Python and Golang.",
+    "about": "Seasoned software engineer with over a decade of experience in backend development and infrastructure management. Proven track record in delivering high-impact projects such as VPN services and virtual data center solutions. Skilled in Python, Golang, and optimizing system performance.",
+    "avatar_url": "https://avatars.githubusercontent.com/u/1702003?v=4",
+    "personal_website_url": "vadim.one",
+    "contact": {
+        "email": "vsuhnarnikov@gmail.com",
+        "tel": "+374 55 659442",
+        "social": [
+            {
+                "name": "GitHub",
+                "url": "https://github.com/vadim-su",
+                "icon": "github"
+            },
+            {
+                "name": "LinkedIn",
+                "url": "https://www.linkedin.com/in/vadim-su/",
+                "icon": "linkedin"
+            }
+        ]
+    },
+    "education": [
+        {
+            "school": "Moscow Technical University of Communications and Informatics",
+            "degree": "Specialist Engineer in Communications and Informatics",
+            "start": "2009",
+            "end": "2014"
+        }
+    ],
+    "work": [
+        {
+            "company": "Private Contract",
+            "badges": [
+                "Remote",
+                "AI",
+                "Search Optimization",
+                "RAGs"
+            ],
+            "title": "Senior Software Engineer / Technical Lead",
+            "start": "2024",
+            "end": null,
+            "description": "Developed and maintained backend services for a remote team collaboration platform. Implemented new features and improved existing systems. Collaborated with cross-functional teams to deliver high-quality software."
+        },
+        {
+            "company": "AutoDS",
+            "link": "https://www.autods.com/",
+            "badges": [
+                "Remote"
+            ],
+            "title": "Senior Software Engineer",
+            "start": "2022",
+            "end": "2024",
+            "description": "Engineered an interactive sales system. Enhanced and maintained subscription and transaction systems.Provided ongoing support for legacy code."
+        },
+        {
+            "company": "IT GLOBAL",
+            "link": "https://itglobal.ru/",
+            "badges": [
+                "Remote"
+            ],
+            "title": "Senior Software Engineer",
+            "start": "2019",
+            "end": "2022",
+            "description": "Implemented backend for VDC web service. Developed and maintained VPN service. Created Terraform provider for managing infrastructure. Maintained multiple Python microservices."
+        },
+        {
+            "company": "Utorg LLP",
+            "link": "https://utorg.pro/",
+            "badges": [
+                "Remote"
+            ],
+            "title": "Software Engineer / Solution Architect",
+            "start": "2018",
+            "end": "2019",
+            "description": "Developed liquidity generation systems using Python and Golang. Designed and implemented clearing systems for banking transactions. Built an account monitoring system with real-time analytics."
+        },
+        {
+            "company": "Private Contract",
+            "badges": [],
+            "title": "Software Engineer",
+            "start": "2017",
+            "end": "2018",
+            "description": "Developed the core of a car rental service using Golang and Python."
+        },
+        {
+            "company": "Tickets Cloud",
+            "link": "https://ticketscloud.com",
+            "badges": [],
+            "title": "Software Engineer",
+            "start": "2015",
+            "end": "2017",
+            "description": "Implemented customer data collection service using Python and Elasticsearch. Created a data compression service to optimize MongoDB storage.Integrated external services for ticket sales systems."
+        }
+    ],
+    "skills": [
+        "Python",
+        "Golang",
+        "PostgreSQL",
+        "Docker",
+        "Github Actions"
+    ],
+    "projects": [
+        {
+            "title": "Parabol",
+            "tech_stack": [
+                "Full Stack Developer",
+                "TypeScript",
+                "React",
+                "Node.js",
+                "GraphQL"
+            ],
+            "description": "The Agile meeting co-pilot that delivers better meetings with less effort",
+            "logo": "ParabolLogo",
+            "link": {
+                "label": "github.com",
+                "href": "https://parabol.co/"
+            }
+        },
+        {
+            "title": "Evercast",
+            "tech_stack": [
+                "Lead Frontend Developer",
+                "TypeScript",
+                "React",
+                "Node.js",
+                "GraphQL"
+            ],
+            "description": "Creative collaboration platform that combines video conferencing and HD media streaming",
+            "logo": "EvercastLogo",
+            "link": {
+                "label": "evercast.us",
+                "href": "https://www.evercast.us/"
+            }
+        },
+        {
+            "title": "Consultly",
+            "tech_stack": [
+                "Side Project",
+                "TypeScript",
+                "Next.js",
+                "Vite",
+                "GraphQL",
+                "WebRTC"
+            ],
+            "description": "A platform to build and grow your online business",
+            "logo": "ConsultlyLogo",
+            "link": {
+                "label": "consultly.com",
+                "href": "https://consultly.com/"
+            }
+        },
+        {
+            "title": "Monito",
+            "tech_stack": [
+                "Side Project",
+                "TypeScript",
+                "Next.js",
+                "Browser Extension"
+            ],
+            "description": "Browser extension that records everything happening in a web application",
+            "logo": "MonitoLogo",
+            "link": {
+                "label": "monito.dev",
+                "href": "https://monito.dev/"
+            }
+        },
+        {
+            "title": "Jarocki.me",
+            "tech_stack": [
+                "Side Project",
+                "Next.js",
+                "MDX"
+            ],
+            "description": "Personal website and blog. Built with Next.js and Notion API",
+            "logo": "JarockiMeLogo",
+            "link": {
+                "label": "github.com",
+                "href": "https://jarocki.me/"
+            }
+        },
+        {
+            "title": "Minimal",
+            "tech_stack": [
+                "Side Project",
+                "Next.js",
+                "Puppeteer"
+            ],
+            "description": "Minimalist calendars, habit trackers, and planners generator",
+            "logo": "Minimal",
+            "link": {
+                "label": "useminimal.com",
+                "href": "https://useminimal.com/"
+            }
+        },
+        {
+            "title": "Barepapers",
+            "tech_stack": [
+                "Side Project",
+                "Next.js",
+                "Puppeteer"
+            ],
+            "description": "Generates beautiful wallpapers using random shapes and gradients",
+            "logo": "BarepapersLogo",
+            "link": {
+                "label": "barepapers.com",
+                "href": "https://barepapers.com/"
+            }
+        },
+        {
+            "title": "Year progress",
+            "tech_stack": [
+                "Side Project",
+                "TypeScript",
+                "Next.js"
+            ],
+            "description": "Tracks current year progress and displays a countdown",
+            "logo": "YearProgressLogo",
+            "link": {
+                "label": "getyearprogress.com",
+                "href": "https://getyearprogress.com/"
+            }
+        },
+        {
+            "title": "Mobile Vikings",
+            "tech_stack": [
+                "Lead Android Developer",
+                "Android",
+                "Kotlin"
+            ],
+            "description": "Android application for leading virtual mobile operator in Poland",
+            "logo": "MobileVikingsLogo",
+            "link": {
+                "label": "mobilevikings.pl",
+                "href": "https://mobilevikings.pl/"
+            }
+        },
+        {
+            "title": "Howdy",
+            "tech_stack": [
+                "Lead Android Developer",
+                "Android",
+                "Kotlin"
+            ],
+            "description": "Howdy is a place for joining communities you care about",
+            "logo": "Howdy",
+            "link": {
+                "label": "play.google.com",
+                "href": "https://howdy.co/"
+            }
+        },
+        {
+            "title": "Tastycloud",
+            "tech_stack": [
+                "Lead Android Developer",
+                "Android",
+                "Kotlin"
+            ],
+            "description": "Android application for managing and displaying restaurant menus in kiosk mode",
+            "logo": "TastyCloudLogo",
+            "link": {
+                "label": "tastycloud.fr",
+                "href": "https://www.tastycloud.fr/"
+            }
+        },
+        {
+            "title": "Ambit",
+            "tech_stack": [
+                "Lead Android Developer",
+                "Android",
+                "Kotlin"
+            ],
+            "description": "Android application that helps with sharing your contact details",
+            "logo": "AmbitLogo"
+        },
+        {
+            "title": "Bim",
+            "tech_stack": [
+                "Lead Android Developer",
+                "Android",
+                "Kotlin"
+            ],
+            "description": "Android application that helps with booking a table in a restaurants",
+            "logo": "BimLogo"
+        },
+        {
+            "title": "Canal Digital GO",
+            "tech_stack": [
+                "Lead Android Developer",
+                "Android",
+                "Kotlin"
+            ],
+            "description": "Video streaming mobile application for Canal Digital subscribers",
+            "logo": "CDGOLogo"
+        }
+    ]
+}
