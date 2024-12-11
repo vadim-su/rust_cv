@@ -11,11 +11,15 @@ jobs:
       # Ensure rustfmt is installed and setup problem matcher
       - uses: actions-rust-lang/setup-rust-toolchain@v1
         with:
-          components: trunk
           target: wasm32-unknown-unknown
 
+      - name: Install Trunk
+        run: cargo install trunk
+
       - uses: actions/setup-node@v4
-      - run: npm install -g tailwindcss
+
+      - name: Install TailwindCSS
+        run: npm install -g tailwindcss
 
       - name: Build Project
         run: trunk build --release=true
