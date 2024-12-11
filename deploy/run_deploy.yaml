@@ -1,0 +1,19 @@
+---
+- name: Deploy docs
+  hosts: all
+
+  vars:
+    project_name: "vadim_cv"
+    build_dir: "../dist"
+    project_dir: "{{ ansible_env.HOME }}/{{ project_name }}"
+
+  tasks:
+    - name: Ensure data directory exists
+      ansible.builtin.file:
+        path: "{{ project_dir }}"
+        state: directory
+
+    - name: Copy documentation
+      ansible.posix.synchronize:
+        src: "{{ build_dir }}/"
+        dest: "{{ project_dir }}/"

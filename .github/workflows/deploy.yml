@@ -23,3 +23,14 @@ jobs:
 
       - name: Build Project
         run: trunk build --release=true
+
+      - name: Run playbook
+        uses: dawidd6/action-ansible-playbook@v2
+
+        with:
+          playbook: deploy/run_deploy.yaml
+          key: ${{ secrets.DEPLOY_KEY }}
+          inventory: |
+            [vadim_one]
+            {{ var.host }} ansible_port={{ var.port }} ansible_user={{ var.user }}
+          requirements: deploy/galaxy-requirements.yml
