@@ -1,0 +1,21 @@
+name: "Deploy"
+on:
+  push:
+
+jobs:
+  formatting:
+    name: deploy
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      # Ensure rustfmt is installed and setup problem matcher
+      - uses: actions-rust-lang/setup-rust-toolchain@v1
+        with:
+          components: trunk
+          target: wasm32-unknown-unknown
+
+      - uses: actions/setup-node@v4
+      - run: npm install -g tailwindcss
+
+      - name: Build Project
+        run: trunk build --release=true
