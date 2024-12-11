@@ -32,5 +32,5 @@ jobs:
           key: ${{ secrets.DEPLOY_KEY }}
           inventory: |
             [vadim_one]
-            {{ var.host }} ansible_port={{ var.port }} ansible_user={{ var.user }}
+            "{{ var.host }}"" ansible_port="{{ var.port }}"" ansible_user="{{ var.user }}""
           requirements: deploy/galaxy-requirements.yml
