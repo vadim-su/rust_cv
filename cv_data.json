@@ -3,8 +3,8 @@
     "initials": "VS",
     "location": "Yerevan, Armenia",
     "location_link": "https://www.google.com/maps/place/Yerevan,+Armenia",
-    "summary": "Senior Software Developer passionate about creating efficient and innovative solutions to challenging problems. Experienced in server automation, document search systems, and microservices.",
-    "about": "Seasoned software engineer with over a decade of experience in backend development and infrastructure management. Proven track record in delivering high-impact projects such as VPN services and virtual data center solutions. Currently working on building a document analysis and search system leveraging SurrealDB and Elasticsearch, maintaining asyncord (a Python Discord library), diving into AI-driven search for heterogeneous documents, developing a game engine, and setting up secure systems with tools like WireGuard VPN and Ansible scripts.",
+    "summary": "Senior Software Developer with a passion for creating efficient and innovative solutions to challenging problems. My work spans a wide range of interests, from server automation to document search systems and Discord bots.",
+    "about": "What I’m Working On:\nBuilding a document analysis and search system leveraging SurrealDB and Elasticsearch.\nMaintaining asyncord, my Python Discord library – check it out here.\nDiving into AI-driven search for heterogeneous documents like PDFs and Word files.\nDeveloping a game engine and exploring the intricacies of animations.\nSetting up secure systems with tools like WireGuard VPN and Ansible scripts.",
     "avatar_url": "https://avatars.githubusercontent.com/u/1702003?v=4",
     "personal_website_url": "vadim.one",
     "contact": {
@@ -33,9 +33,11 @@
     ],
     "work": [
         {
-            "company": "Private Contract",
+            "company": "Supalab",
+            "link": "https://supalab.ai/",
             "badges": [
                 "Remote",
+                "Python",
                 "AI",
                 "Search Optimization",
                 "RAGs"
@@ -43,13 +45,16 @@
             "title": "Senior Software Engineer / Technical Lead",
             "start": "2024",
             "end": null,
-            "description": "Developed and maintained backend services for a remote team collaboration platform. Implemented new features and improved existing systems. Collaborated with cross-functional teams to deliver high-quality software."
+            "description": "Developed and maintained dozen backend services for a heterogeneous document search system. Implemented a document analysis pipeline."
         },
         {
             "company": "AutoDS",
             "link": "https://www.autods.com/",
             "badges": [
-                "Remote"
+                "Remote",
+                "Python",
+                "Elasticsearch",
+                "PostgreSQL"
             ],
             "title": "Senior Software Engineer",
             "start": "2022",
@@ -60,7 +65,12 @@
             "company": "IT GLOBAL",
             "link": "https://itglobal.ru/",
             "badges": [
-                "Remote"
+                "Remote",
+                "Python",
+                "Go",
+                "PostgreSQL",
+                "MongoDB",
+                "Terraform"
             ],
             "title": "Senior Software Engineer",
             "start": "2019",
@@ -71,7 +81,9 @@
             "company": "Utorg LLP",
             "link": "https://utorg.pro/",
             "badges": [
-                "Remote"
+                "Remote",
+                "Go",
+                "PostgreSQL"
             ],
             "title": "Software Engineer / Solution Architect",
             "start": "2018",
