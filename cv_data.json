@@ -3,8 +3,8 @@
     "initials": "VS",
     "location": "Yerevan, Armenia",
     "location_link": "https://www.google.com/maps/place/Yerevan,+Armenia",
-    "summary": "Enthusiastic about learning new technologies and solving complex problems. Adept at creating robust and scalable systems using Python and Golang.",
-    "about": "Seasoned software engineer with over a decade of experience in backend development and infrastructure management. Proven track record in delivering high-impact projects such as VPN services and virtual data center solutions. Skilled in Python, Golang, and optimizing system performance.",
+    "summary": "Senior Software Developer passionate about creating efficient and innovative solutions to challenging problems. Experienced in server automation, document search systems, and microservices.",
+    "about": "Seasoned software engineer with over a decade of experience in backend development and infrastructure management. Proven track record in delivering high-impact projects such as VPN services and virtual data center solutions. Currently working on building a document analysis and search system leveraging SurrealDB and Elasticsearch, maintaining asyncord (a Python Discord library), diving into AI-driven search for heterogeneous documents, developing a game engine, and setting up secure systems with tools like WireGuard VPN and Ansible scripts.",
     "avatar_url": "https://avatars.githubusercontent.com/u/1702003?v=4",
     "personal_website_url": "vadim.one",
     "contact": {
