@@ -48,12 +48,19 @@ pub struct ContactsProps {
 pub fn Contacts(props: &ContactsProps) -> Html {
     let ContactsProps { contact } = props;
     html! {
-        <div class="flex gap-x-1 pt-1 font-mono text-sm text-foreground/80 print:hidden">
-            <Button icon="mail" href={format!("mailto:{}", contact.email)}></Button>
-            <Button icon="phone" href={format!("tel:{}", contact.tel)}></Button>
-            { for contact.social.iter().map(|social| html! {
-                <Button icon={social.icon.clone()} href={social.url.clone()}></Button>
-            }) }
-        </div>
+        <>
+            <div class="flex gap-x-1 pt-1 font-mono text-sm text-foreground/80 print:hidden">
+                <Button icon="mail" href={format!("mailto:{}", contact.email)}></Button>
+                <Button icon="phone" href={format!("tel:{}", contact.tel)}></Button>
+                { for contact.social.iter().map(|social| html! {
+                    <Button icon={social.icon.clone()} href={social.url.clone()}></Button>
+                }) }
+            </div>
+            <div class="hidden gap-x-2 font-mono text-sm text-foreground/80 print:flex print:text-[12px]">
+                <a class="hover:text-foreground/70">{contact.email.clone()}</a>
+                <span>{"|"}</span>
+                <a class="hover:text-foreground/70">{contact.tel.clone()}</a>
+            </div>
+        </>
     }
 }
