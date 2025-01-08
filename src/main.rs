@@ -37,7 +37,7 @@ fn App() -> Html {
 
                     <div class="space-y-4 print:space-y-4">
                         <section class="flex min-h-0 flex-col gap-y-3 print:gap-y-1">
-                            <About summary={cv_data.summary} />
+                            <About about={cv_data.about} />
                         </section>
 
                         <section class="flex min-h-0 flex-col gap-y-3 print:gap-y-1">
