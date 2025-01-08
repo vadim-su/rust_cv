@@ -3,8 +3,8 @@
     "initials": "VS",
     "location": "Yerevan, Armenia",
     "location_link": "https://www.google.com/maps/place/Yerevan,+Armenia",
-    "summary": "Senior Software Developer passionate about creating efficient and innovative solutions to challenging problems. Experienced in server automation, document search systems, and microservices.",
-    "about": "Seasoned software engineer with over a decade of experience in backend development. Extensive experience with Python, including developing microservices, automation scripts, and data processing pipelines. Proven track record in delivering high-impact projects such as VPN services and virtual data center solutions. Currently working on building a document analysis and search system leveraging SurrealDB and Elasticsearch, maintaining asyncord (a Python Discord library), and diving into AI-driven search for heterogeneous documents.",
+    "summary": "Senior Software Engineer engaged in creating efficient and innovative solutions. Experienced in server automation, document search systems, and microservices using Python, Go, and Rust.",
+    "about": "Seasoned developer with over a decade of experience in backend development. Extensive experience with Python, including developing microservices, automation scripts, and data processing pipelines. Contributor to aiohttp, pydantic, and rust-rocksdb. Experienced in implementing high-load projects such as VPN services and virtual data center solutions. Currently working on building a document analysis and search system using SurrealDB and Elasticsearch, maintaining asyncord (a Python library for Discord) and bredis (a key/value store), and exploring document search capabilities using AI.",
     "avatar_url": "https://avatars.githubusercontent.com/u/1702003?v=4",
     "personal_website_url": "vadim.one",
     "contact": {
