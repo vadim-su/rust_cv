@@ -1,10 +1,10 @@
 {
-    "name": "Vadim Suharnikov",
-    "initials": "VS",
-    "location": "Yerevan, Armenia",
+    "name": "Вадим Сухарников",
+    "initials": "ВС",
+    "location": "Ереван, Армения",
     "location_link": "https://www.google.com/maps/place/Yerevan,+Armenia",
-    "summary": "Senior Software Developer passionate about creating efficient and innovative solutions to challenging problems. Experienced in server automation, document search systems, and microservices.",
-    "about": "Seasoned software engineer with over a decade of experience in backend development. Extensive experience with Python, including developing microservices, automation scripts, and data processing pipelines. Proven track record in delivering high-impact projects such as VPN services and virtual data center solutions. Currently working on building a document analysis and search system leveraging SurrealDB and Elasticsearch, maintaining asyncord (a Python Discord library), and diving into AI-driven search for heterogeneous documents.",
+    "summary": "Ведущий разработчик программного обеспечения,занимающийся созданием эффективных и инновационных решений. Опыт в автоматизации серверов, системах поиска документов и микросервисах с использованием Python, Go и Rust.",
+    "about": "Опытный разработчик с более чем десятилетним опытом в backend разработке. Обширный опыт работы с Python, включая разработку микросервисов, автоматизационных скриптов и конвейеров обработки данных. Являюсь контрибьютером в aiohttp, pydantic и rust-rocksdb.  Опыт в реализации проектов с высокой нагрузкой, таких как VPN-сервисы и решения для виртуальных центров обработки данных. В настоящее время работаю над созданием системы анализа и поиска документов с использованием SurrealDB и Elasticsearch, поддерживаю asyncord (библиотека Python для Discord) и bredis (key/value хранилище), а так же исследую возможности поиска документов с использованием ИИ.",
     "avatar_url": "https://avatars.githubusercontent.com/u/1702003?v=4",
     "personal_website_url": "vadim.one",
     "contact": {
@@ -25,8 +25,8 @@
     },
     "education": [
         {
-            "school": "Moscow Technical University of Communications and Informatics",
-            "degree": "Specialist Engineer in Communications and Informatics",
+            "school": "Московский технический университет связи и информатики",
+            "degree": "Инженер-специалист по связи и информатике",
             "start": "2009",
             "end": "2014"
         }
@@ -36,76 +36,76 @@
             "company": "Supalab",
             "link": "https://supalab.ai/",
             "badges": [
-                "Remote",
+                "Удаленная работа",
                 "Python",
-                "AI",
-                "Search Optimization",
+                "ИИ",
+                "Оптимизация поиска",
                 "RAGs"
             ],
-            "title": "Senior Software Engineer / Technical Lead",
+            "title": "Ведущий разработчик",
             "start": "2024",
             "end": null,
-            "description": "Developed and maintained dozen backend services for a heterogeneous document search system. Implemented a document analysis pipeline."
+            "description": "Разработка и поддержка десятка сервисов для гетерогенной системы поиска документов. Реализация конвейера анализа документов."
         },
         {
             "company": "AutoDS",
             "link": "https://www.autods.com/",
             "badges": [
-                "Remote",
+                "Удаленная работа",
                 "Python",
                 "Elasticsearch",
                 "PostgreSQL"
             ],
-            "title": "Senior Software Engineer",
+            "title": "Ведущий разработчик",
             "start": "2022",
             "end": "2024",
-            "description": "Engineered an interactive sales system. Enhanced and maintained subscription and transaction systems.Provided ongoing support for legacy code."
+            "description": "Разработка интерактивной системы продаж. Улучшение и поддержка систем подписки и транзакций. Поддержки legacy кода."
         },
         {
             "company": "IT GLOBAL",
             "link": "https://itglobal.ru/",
             "badges": [
-                "Remote",
+                "Удаленная работа",
                 "Python",
                 "Go",
                 "PostgreSQL",
                 "MongoDB",
                 "Terraform"
             ],
-            "title": "Senior Software Engineer",
+            "title": "Ведущий разработчик",
             "start": "2019",
             "end": "2022",
-            "description": "Implemented backend for VDC web service. Developed and maintained VPN service. Created Terraform provider for managing infrastructure. Maintained multiple Python microservices."
+            "description": "Реализация серверной части веб-сервиса VDC. Разработка и поддержка VPN-сервиса. Создание провайдера Terraform для управления инфраструктурой. Поддержка множества микросервисов на Python."
         },
         {
             "company": "Utorg LLP",
             "link": "https://utorg.pro/",
             "badges": [
-                "Remote",
+                "Удаленная работа",
                 "Go",
                 "PostgreSQL"
             ],
-            "title": "Software Engineer / Solution Architect",
+            "title": "разработчик / Архитектор решений",
             "start": "2018",
             "end": "2019",
-            "description": "Developed liquidity generation systems using Python and Golang. Designed and implemented clearing systems for banking transactions. Built an account monitoring system with real-time analytics."
+            "description": "Разработка систем генерации ликвидности с использованием Python и Golang. Проектирование и реализация систем клиринга для банковских транзакций. Создание системы мониторинга счетов с аналитикой в реальном времени."
         },
         {
-            "company": "Private Contract",
+            "company": "Частный контракт",
             "badges": [],
-            "title": "Software Engineer",
+            "title": "разработчик",
             "start": "2017",
             "end": "2018",
-            "description": "Developed the core of a car rental service using Golang and Python."
+            "description": "Разработка ядра сервиса аренды автомобилей с использованием Golang и Python."
         },
         {
             "company": "Tickets Cloud",
             "link": "https://ticketscloud.com",
             "badges": [],
-            "title": "Software Engineer",
+            "title": "разработчик",
             "start": "2015",
             "end": "2017",
-            "description": "Implemented customer data collection service using Python and Elasticsearch. Created a data compression service to optimize MongoDB storage.Integrated external services for ticket sales systems."
+            "description": "Реализация сервиса сбора данных о клиентах с использованием Python и Elasticsearch. Создание сервиса сжатия данных для оптимизации хранения в MongoDB. Интеграция внешних сервисов для систем продажи билетов."
         }
     ],
     "skills": [
@@ -125,7 +125,7 @@
                 "Node.js",
                 "GraphQL"
             ],
-            "description": "The Agile meeting co-pilot that delivers better meetings with less effort",
+            "description": "Ко-пилот для Agile встреч, который обеспечивает лучшие встречи с меньшими усилиями",
             "logo": "ParabolLogo",
             "link": {
                 "label": "github.com",
@@ -141,7 +141,7 @@
                 "Node.js",
                 "GraphQL"
             ],
-            "description": "Creative collaboration platform that combines video conferencing and HD media streaming",
+            "description": "Платформа для творческого сотрудничества, объединяющая видеоконференции и потоковую передачу HD-медиа",
             "logo": "EvercastLogo",
             "link": {
                 "label": "evercast.us",
@@ -158,7 +158,7 @@
                 "GraphQL",
                 "WebRTC"
             ],
-            "description": "A platform to build and grow your online business",
+            "description": "Платформа для создания и развития вашего онлайн-бизнеса",
             "logo": "ConsultlyLogo",
             "link": {
                 "label": "consultly.com",
@@ -173,7 +173,7 @@
                 "Next.js",
                 "Browser Extension"
             ],
-            "description": "Browser extension that records everything happening in a web application",
+            "description": "Расширение для браузера, которое записывает все, что происходит в веб-приложении",
             "logo": "MonitoLogo",
             "link": {
                 "label": "monito.dev",
@@ -187,7 +187,7 @@
                 "Next.js",
                 "MDX"
             ],
-            "description": "Personal website and blog. Built with Next.js and Notion API",
+            "description": "Персональный веб-сайт и блог. Построен с использованием Next.js и Notion API",
             "logo": "JarockiMeLogo",
             "link": {
                 "label": "github.com",
@@ -201,7 +201,7 @@
                 "Next.js",
                 "Puppeteer"
             ],
-            "description": "Minimalist calendars, habit trackers, and planners generator",
+            "description": "Генератор минималистичных календарей, трекеров привычек и планировщиков",
             "logo": "Minimal",
             "link": {
                 "label": "useminimal.com",
@@ -215,7 +215,7 @@
                 "Next.js",
                 "Puppeteer"
             ],
-            "description": "Generates beautiful wallpapers using random shapes and gradients",
+            "description": "Генератор красивых обоев с использованием случайных форм и градиентов",
             "logo": "BarepapersLogo",
             "link": {
                 "label": "barepapers.com",
@@ -229,7 +229,7 @@
                 "TypeScript",
                 "Next.js"
             ],
-            "description": "Tracks current year progress and displays a countdown",
+            "description": "Отслеживает текущий прогресс года и отображает обратный отсчет",
             "logo": "YearProgressLogo",
             "link": {
                 "label": "getyearprogress.com",
@@ -243,7 +243,7 @@
                 "Android",
                 "Kotlin"
             ],
-            "description": "Android application for leading virtual mobile operator in Poland",
+            "description": "Приложение для Android для ведущего виртуального мобильного оператора в Польше",
             "logo": "MobileVikingsLogo",
             "link": {
                 "label": "mobilevikings.pl",
@@ -257,7 +257,7 @@
                 "Android",
                 "Kotlin"
             ],
-            "description": "Howdy is a place for joining communities you care about",
+            "description": "Howdy - это место для присоединения к сообществам, которые вам небезразличны",
             "logo": "Howdy",
             "link": {
                 "label": "play.google.com",
@@ -271,7 +271,7 @@
                 "Android",
                 "Kotlin"
             ],
-            "description": "Android application for managing and displaying restaurant menus in kiosk mode",
+            "description": "Приложение для Android для управления и отображения меню ресторанов в режиме киоска",
             "logo": "TastyCloudLogo",
             "link": {
                 "label": "tastycloud.fr",
@@ -285,7 +285,7 @@
                 "Android",
                 "Kotlin"
             ],
-            "description": "Android application that helps with sharing your contact details",
+            "description": "Приложение для Android, которое помогает делиться вашими контактными данными",
             "logo": "AmbitLogo"
         },
         {
@@ -295,7 +295,7 @@
                 "Android",
                 "Kotlin"
             ],
-            "description": "Android application that helps with booking a table in a restaurants",
+            "description": "Приложение для Android, которое помогает бронировать столики в ресторанах",
             "logo": "BimLogo"
         },
         {
@@ -305,7 +305,7 @@
                 "Android",
                 "Kotlin"
             ],
-            "description": "Video streaming mobile application for Canal Digital subscribers",
+            "description": "Мобильное приложение для потокового видео для абонентов Canal Digital",
             "logo": "CDGOLogo"
         }
     ]
