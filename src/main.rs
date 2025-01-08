@@ -30,7 +30,7 @@ fn App() -> Html {
 
     html! {
         <>
-            <div class="container relative mx-auto scroll-my-12 overflow-auto p-4 print:p-11 md:p-16">
+            <div class="container relative mx-auto scroll-my-12 overflow-auto p-4 print:p-5 md:p-16">
                 <section class="mx-auto w-full max-w-2xl space-y-8 bg-white print:space-y-4">
 
                     <Header cv_data={cv_data.clone()} />
