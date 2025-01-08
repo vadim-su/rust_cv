@@ -60,6 +60,8 @@ pub fn Contacts(props: &ContactsProps) -> Html {
                 <a class="hover:text-foreground/70">{contact.email.clone()}</a>
                 <span>{"|"}</span>
                 <a class="hover:text-foreground/70">{contact.tel.clone()}</a>
+                <span>{"|"}</span>
+                <a class="hover:text-foreground/70">{"https://github.com/vadim-su"}</a>
             </div>
         </>
     }
