@@ -5,6 +5,7 @@ mod experience;
 mod header;
 
 include!(concat!(env!("OUT_DIR"), "/cv_data.rs"));
+include!(concat!(env!("OUT_DIR"), "/avatar.rs"));
 
 use experience::Experience;
 use wasm_bindgen::prelude::*;

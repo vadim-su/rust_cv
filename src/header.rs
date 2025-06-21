@@ -34,7 +34,7 @@ pub fn Header(props: &HeaderProps) -> Html {
 
                 <Contacts contact={cv_data.contact.clone()} />
             </div>
-            <Avatar url={cv_data.avatar_url.clone()} initials={cv_data.initials.clone()} />
+            <Avatar initials={cv_data.initials.clone()} />
         </header>
     }
 }
