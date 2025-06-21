@@ -13,7 +13,7 @@
         path: "{{ project_dir }}"
         state: directory
 
-    - name: Copy documentation
+    - name: Copy built files to project directory
       ansible.posix.synchronize:
         src: "{{ build_dir }}/"
         dest: "{{ project_dir }}/"
